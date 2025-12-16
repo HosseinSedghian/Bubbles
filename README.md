@@ -6,14 +6,6 @@ This project demonstrates how simple animations and visual effects can be create
 
 ---
 
-## 🎥 Demo
-
-To see the animation in action, simply open the project in your browser.
-
-*(If you publish this project using GitHub Pages, you can add the live demo link here.)*
-
----
-
 ## ✨ Features
 
 * Dynamically generated bubbles

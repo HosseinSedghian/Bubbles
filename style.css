@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #f0f8ff;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.bubble {
+    opacity: 0.85;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    pointer-events: none;
+}

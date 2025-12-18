@@ -20,8 +20,8 @@ for (let i = 0; i < bubbleCount; i++) {
     const posX = getRandomBetween(0, window.innerWidth - bubbleSize);
     const posY = getRandomBetween(0, window.innerHeight - bubbleSize);
 
-    const speedX = getRandomBetween(-1.5, 1.5);
-    const speedY = getRandomBetween(-1.5, 1.5);
+    const speedX = getRandomBetween(-1, 1);
+    const speedY = getRandomBetween(-1, 1);
 
     bubbles.push({
         newBox: newBox,
@@ -61,11 +61,9 @@ function animate() {
 
         bubble.newBox.style.transform = `translate(${bubble.x}px, ${bubble.y}px)`;
     }
-
-    requestAnimationFrame(animate);
 }
 
-requestAnimationFrame(animate);
+setInterval(animate, 0.1);
 
 function getRandomColor() {
     const red = Math.floor(Math.random() * 256);

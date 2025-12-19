@@ -33,6 +33,7 @@ This project demonstrates how simple animations and visual effects can be create
 ```
 Bubbles/
 ├── index.html
+├── style.css
 ├── script.js
 └── README.md
 ```
